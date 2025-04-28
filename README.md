@@ -11,9 +11,10 @@ This is a comprehensive end-to-end test automation framework for ParaBank using 
 ## Getting Started
 
 1. Clone the repository: gh repo clone bjbjoshi984/Fabric-QA-Para-Automation
+   Link: https://github.com/bjbjoshi984/Fabric-QA-Para-Automation/tree/master
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone bjbjoshi984/Fabric-QA-Para-Automation
+cd UI-Automation-Framework
 ```
 
 2. Install dependencies:
