@@ -54,6 +54,7 @@ npm run test:ui
 
 ### UI Tests
 
+Path : UI-Automation-Framework/tests/e2e/complete-banking-flow.spec.ts
 1. Navigate to Para bank application.
 2. Create a new user from user registration page (Ensure username is generated randomly and it is unique in every test
 execution).
@@ -67,6 +68,7 @@ execution).
 
 ### API Tests
 
+Path : UI-Automation-Framework/tests/api/transactions-api.spec.ts
 1. Search the transactions using “Find transactions” API call by amount for the payment transactions made in Step 8.
 2. Validate the details displayed in Json response.
 
