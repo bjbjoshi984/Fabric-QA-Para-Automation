@@ -20,6 +20,7 @@ test.describe('Complete Banking Flow Tests', () => {
   let billPayPage: BillPayPage;
   let findTransactionsPage: FindTransactionsPage;
   let apiHelper: ApiHelper;
+  
   let testUserData: {
     firstName: string;
     lastName: string;
@@ -102,8 +103,8 @@ test.describe('Complete Banking Flow Tests', () => {
     const billPaySuccess = await billPayPage.payBill(billPayData);
     expect(billPaySuccess).toBeTruthy();
     
-    // 9. Add necessary assertions at each test step whenever it is needed
-    // (Assertions have been added throughout the test)
+    // 9. Assertions have been added throughout the test
+  
     
     // API Test scenarios:
     // 1. Search the transactions using "Find transactions" API call by amount
